@@ -1,0 +1,116 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+
+body {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.container {
+    
+    margin-top: 100px;
+}
+
+.yellow {
+    width: 100%;
+    padding: 30px;
+    background-color: rgb(230, 230, 12);
+}
+
+
+div {
+    border-radius: 6px;
+}
+
+
+.box {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+
+.green2 {
+    position: relative;
+    width: 100%;
+    padding:30px;
+    
+}
+
+.greenA {
+    background-color: lightseagreen;
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding-right: 20px;
+    display: inline-block;
+    width: 49%;
+    height: 100%;
+    
+}
+
+.greenB {
+    background-color: lightseagreen;
+    top: 0;
+    right: 0;
+    position: absolute;
+    display: inline-block;
+    width: 49%;
+    height: 100%;
+    
+}
+
+.blue4 {
+    position: relative;
+    width: 100%;
+    padding:30px;
+    
+}
+
+.blueA {
+    position: absolute;
+    width: 24%;
+    background-color: blue;
+    height: 100%;
+    left: 0;
+    top: 0;
+    margin-right: 1%;
+    
+}
+
+.blueB {
+    display: inline-block;
+    position: absolute;
+    width: 23%;
+    background-color: blue;
+    height: 100%;
+    top: 0;
+    left: 24%;
+    margin-left: 2%;
+}
+
+.blueC {
+    display: inline-block;
+    position: absolute;
+    width: 23%;
+    background-color: blue;
+    height: 100%;
+    top: 0;
+    right: 24%;
+    margin-right: 2%;
+}
+
+.blueD {
+    display: inline-block;
+    position: absolute;
+    width: 24%;
+    background-color: blue;
+    height: 100%;
+    top: 0;
+    right: 0;
+    margin-left: 1%;
+
+}

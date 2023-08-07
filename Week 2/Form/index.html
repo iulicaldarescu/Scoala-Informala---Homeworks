@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Form</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <h1>Create a ticket</h1>
+    <div class="container">
+        <form>
+            <h2>Who is reporting?</h2>
+            <div class="reporter-info">
+                <div class="name">
+                    <label for="First Name">First Name</label>
+                    <input id="first-name" name="first-name" type="text">
+
+
+                    <label class="lastname" for="Last Name">Last Name</label>
+                    <input id="last-name" name="last-name" type="text">
+
+
+
+                </div>
+
+                <div class="phone">
+                    <label for="phone">Phone no</label>
+                    <input type="tel" id="phone" name="phone" pattern="[0-9]{4}-[0-9]{3}-[0-9]{3}"
+                        placeholder="07xx xxx xxx" required>
+                </div>
+
+                <div class="username/email">
+                    <label for="username">Username</label>
+                    <input id="username" name="username" type="text" required>
+
+                    <label class="email" for="Email">Email Address</label>
+                    <input id="email" name="email" type="email" placeholder="example@gmail.com">
+
+
+
+                </div>
+
+                <div class="sex">
+                    <label for="sex">Sex:</label>
+                    <input id="sex" name="sex" type="radio" autocomplete="off">Male
+                    <input id="sex" name="sex" type="radio" autocomplete="off">Female
+                    <input id="sex" name="sex" type="radio" autocomplete="off">Prefer not to say
+                </div>
+
+                <div>
+                    <label for="department">Department</label>
+                    <select id="department" name="department" autocomplete="off">
+                        <option value="" disabled selected hidden>Select your option</option>
+                        <option value="accounting">Accounting</option>
+                        <option value="hr">HR</option>
+                        <option value="production-planning">Production Planning</option>
+                        <option value="health-and-safety">Health and Safety</option>
+                        <option value="finance">Finance</option>
+                        <option value="controlling">Controlling</option>
+                        <option value="sales">Sales</option>
+                        <option value="purchasing">Purchasing</option>
+
+                    </select>
+                </div>
+            </div>
+
+
+            <div class="hardware-info">
+                <h2 class="h2">About your hardware</h2>
+                <div>
+                    <label for="device">Device:</label>
+                    <select id="device" name="device" autocomplete="off">
+                        <option value="" disabled selected hidden>Select your option</option>
+                        <option value="smartphone">Smartphone</option>
+                        <option value="thin-client">Thin Client</option>
+                        <option value="mobile-thin-client">Mobile Thin Client</option>
+                        <option value="ms-surface">MS Surface</option>
+                    </select>
+
+                    <label class="os" for="operating-system">Operating System</label>
+                    <select id="operating-system" name="operating-system" autocomplete="off">
+                        <option value="" disabled selected hidden>Select your option</option>
+                        <option value="windows">Windows</option>
+                        <option value="mac-os">Mac OS</option>
+                    </select>
+
+                    <div>
+
+                        <label for="equipment-number">Equipment Number</label>
+                        <input id="equipment-number" name="equipment-number" type="text">
+
+                        <label class="dns" for="dns">DNS</label>
+                        <input id="dns" name="dns" type="text" >
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="problem-info">
+                <h2 class="h2">About the problem</h2>
+                <div>
+                    <label for="category">Category</label>
+                    <select id="category" name="category" autocomplete="off">
+                        <option value="" disabled selected hidden>Select your option</option>
+                        <option value="outlook">Outlook/Exchange</option>
+                        <option value="smartphone">Smartpone</option>
+                        <option value="hardware">Hardware</option>
+                        <option value="software">Software</option>
+                        <option value="printing">Printing</option>
+                        <option value="windows">Windows</option>
+                        <option value="citrix">Citrix</option>
+                    </select>
+
+                    <div class="priority">
+                        <label for="priority">Priority</label>
+                        <input type="radio" id="priority" name="priority" autocomplete="off">Low
+                        <input type="radio" id="priority" name="priority" autocomplete="off">Medium
+                        <input type="radio" id="priority" name="priority" autocomplete="off">High
+                        <input type="radio" id="priority" name="priority" autocomplete="off">Very high
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="description">
+                <h2 class="h2">Give us more details</h2>
+
+                <textarea id="description" name="description" maxlength="500"></textarea>
+            </div>
+
+
+        <div class="submit">
+                <div class="send">
+                <label for="send">Send to local IT department</label>
+                <input class="btn" type="button" value="Send">
+            </div>
+        </div>
+                
+
+            
+
+        </form>
+    </div>
+
+    <script src="" async defer></script>
+</body>
+
+</html>

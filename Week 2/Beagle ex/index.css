@@ -1,0 +1,103 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: bisque;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.container {
+    min-width: fit-content;
+    margin-top: 5rem;
+    display: flex;
+    padding-top: 5rem;
+    padding-right: 20rem;
+    text-align: center;
+    
+}
+
+aside {
+   padding-top: 1rem;
+    min-width: 400px;
+    border-right: 1px solid gray;
+    padding-left: 5rem;
+    
+    
+}
+
+aside ul {
+    text-align: start;
+}
+
+aside li {
+    list-style: none;
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 2.5rem;
+}
+
+.active {
+    color: blue;
+}
+
+
+img{
+   padding-top: 1rem;
+   width: 20%;
+   aspect-ratio: 1/1;
+   min-width: 150px;
+   min-height: 150px;
+   border-radius: 50%;
+   
+}
+
+
+.description{
+    text-align: start;
+    padding-bottom: 2rem;
+    padding-top: 3rem;
+    min-width: 400px;
+}
+
+
+
+
+.description li {
+
+    list-style: none;
+    line-height: 2rem;
+}
+
+
+
+.description li .xxx {
+    position: relative;
+   
+
+}
+
+
+.description li span {
+   position: absolute;
+   left: 5rem;
+   
+}
+
+.content {
+    padding-left: 2rem;
+}
+
+.content p {
+    text-align: start;
+    line-height: 1.5rem;
+    font-weight: 500;
+
+}
+
+
+
+
+

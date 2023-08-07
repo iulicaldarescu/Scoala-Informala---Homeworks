@@ -1,0 +1,169 @@
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    accent-color: rgb(24, 132, 161);
+    background-color: rgb(24, 132, 161);
+}
+
+label {
+    width: 10rem;
+    display: inline-block;
+    margin-right: 2rem;
+  
+}
+
+input {
+    width: 10rem;
+    border: transparent;
+    border-bottom: 0.5px solid;
+    background-color: rgb(190, 226, 236);
+   
+}
+
+select {
+    background-color: rgb(190, 226, 236);
+    border: transparent;
+}
+
+
+input:focus {
+    outline: none;
+    
+}
+
+select {
+    width: 10rem;
+}
+
+input:focus::placeholder {
+    color: transparent;
+  }
+
+
+
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 15px;
+    background-color: #eeeeee;
+}
+
+form {
+    width: 80%; 
+    margin: 0 auto;
+}
+
+
+
+.description label {
+    align-items: start;
+    
+}
+
+
+
+div {
+    margin-top: 1rem;
+   
+}
+
+
+.send {
+    height: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+
+}
+
+.submit {
+    
+    padding-bottom: 2rem;
+}
+
+.send label {
+   width: 15rem;
+   height: 100%;
+  font-weight: 700;
+
+  padding-top: 0.4rem;
+ 
+}
+
+.send input {
+    width: 10rem;
+    height: 100%;
+    float: right;
+    text-align: center;
+    background-color: rgb(24, 132, 161);
+    border: none;
+    color: #fff;
+	border: 1px solid #eee;
+	border-radius: 20px;
+	box-shadow: 5px 5px 5px #eee;
+	text-shadow: none;
+}
+
+.btn:hover {
+	background: #016ABC;
+	color: #fff;
+	border: 1px solid #eee;
+	border-radius: 20px;
+	box-shadow: 5px 5px 5px #eee;
+	text-shadow: none;
+    cursor:pointer;
+}
+
+.sex input {
+    width: 3rem;
+   
+}
+
+.lastname, .email, .os, .dns{
+    margin-left: 4rem;
+}
+
+.priority input {
+    width: 3rem;
+}
+
+h2 {
+    padding-bottom: 1rem;
+    padding-top: 2rem;
+}
+
+.h2{
+   padding-bottom: 3rem;
+}
+
+
+
+textarea {
+    
+    transition: all 0.30s ease-in-out;
+    outline: none;
+    padding: 3px 0px 3px 3px;
+    margin: 5px 1px 3px 0px;
+    border: 1px solid #DDDDDD;
+    resize: none;
+    width: 50rem;
+    height: 10rem;
+  }
+
+ textarea:focus {
+    box-shadow: 0 0 5px rgb(24, 132, 161);
+    padding: 3px 0px 3px 3px;
+    margin: 5px 1px 3px 0px;
+    border: 1px solid rgb(24, 132, 161);
+    
+}
+
+.reporter-info, .hardware-info, .problem-info {
+    border-bottom: 1px solid rgb(24, 132, 161);
+    padding-bottom: 3rem;
+}
